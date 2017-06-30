@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_weight="1"
+    android:background="@drawable/backgroud"
+    android:orientation="vertical"
+
+    tools:context="studentmanager.android.vn.studentmanager.AddStudent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.6">
+
+        <ImageView
+            android:id="@+id/iv_image_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:scaleType="centerCrop" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="20dp"
+            android:gravity="center">
+
+            <Button
+
+                android:id="@+id/btn_get_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/drop_shadow"
+                android:text="chọn hình"
+                android:textColor="@color/white" />
+
+            <Button
+
+                android:id="@+id/btn_take_image"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:background="@drawable/drop_shadow"
+                android:text="chụp hình"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.4"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edt_name_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:hint="Họ và tên"
+                android:textColorHint="@color/den" />
+
+            <EditText
+                android:id="@+id/edt_number_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:hint="số điện thoại"
+                android:textColorHint="@color/den" />
+
+            <EditText
+                android:id="@+id/edt_address_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:hint="địa chỉ"
+                android:textColorHint="@color/den" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="40dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_drop_shadow_black"
+                android:text="sửa"
+                android:textColor="@color/red" />
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/btn_drop_shadow_black"
+                android:text="xóa"
+                android:textColor="@color/red" />
+
+            <Button
+                android:id="@+id/btn_save_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/btn_drop_shadow_black"
+                android:text="lưu"
+                android:textColor="@color/red" />
+        </LinearLayout>
+
+
+    </FrameLayout>
+</LinearLayout>
