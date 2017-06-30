@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "364688270546",
+    "firebase_url": "https://picdesginbeauty.firebaseio.com",
+    "project_id": "picdesginbeauty",
+    "storage_bucket": "picdesginbeauty.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364688270546:android:acdb67e15bea1865",
+        "android_client_info": {
+          "package_name": "picdesignbeauty.android.vn.picdesign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364688270546-k1c4l3gevfb419qt4gfvt8vk1tkg3jmn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "picdesignbeauty.android.vn.picdesign",
+            "certificate_hash": "775c5deb8bf895b438d467bc3d5f9779b6792dbf"
+          }
+        },
+        {
+          "client_id": "364688270546-k7p4unmb7vvbr5qtctbhmj1uvnfjf7cb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARdPS3ckyPUOCDa1YRmSFWluwaPcfaju4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364688270546-k7p4unmb7vvbr5qtctbhmj1uvnfjf7cb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
