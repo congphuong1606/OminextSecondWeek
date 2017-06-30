@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="note.android.vn.note.DetailActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:paddingRight="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/nen">
+        <TextView
+            android:id="@+id/tit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notes"
+            android:textSize="18dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="15dp"
+            android:visibility="gone"/>
+        <TextView
+
+            android:id="@+id/tv_title"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="left"
+            android:text="Nội dung công việddsssđcccđvdvvvdvc"
+            android:textColor="@color/den"
+            android:maxLines="1"
+            android:maxWidth="250dp"
+            android:ellipsize="end"
+            android:scrollHorizontally="true"
+
+
+            android:textSize="18dp" />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/tv_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="lưu"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/red"
+            android:textSize="18sp" />
+
+        <TextView
+
+            android:id="@+id/tv_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+android:layout_alignParentRight="true"
+            android:text="sửa"
+            android:textColor="@color/red"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="120dp"
+
+        android:layout_weight="0.83"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_below="@+id/relativeLayout">
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/a">
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:textColor="@color/xanhchu"
+                android:id="@+id/texttitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="Nội dung công việc"
+                android:textSize="18dp" />
+
+    <EditText
+
+        android:id="@+id/edt_description2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:scrollHorizontally="true"
+        android:ellipsize="end"
+        android:gravity="top"
+
+        android:text="sang nay bạ phai den cong ty"
+        android:textColor="@color/den"
+        android:textSize="16sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/texttitle" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+
+
+        <TextView
+            android:id="@+id/tv_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:text="xóa"
+            android:textColor="@color/den"
+            android:textSize="18sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/layout">
+
+        <TextView
+            android:paddingTop="10dp"
+            android:id="@+id/tvTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:gravity="center|top"
+            android:text="12/12/2017 20:03"
+            android:textColor="@color/xanhchu"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>
